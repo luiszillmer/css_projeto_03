@@ -1,0 +1,78 @@
+@import url('reset.css');
+*{
+    margin: 0 5px;
+    padding: 0;
+    max-width: 1440px;
+    max-height: 968px;
+}
+header{
+    width: 1440px;
+    height: 56px;
+    background-color: #fff;
+}
+header .header-itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+header .header-itens img .lupa{
+    width: 57px;
+    height: 40px;
+}
+header .header-itens input{
+    width: 404px;
+    height: 40px;
+    border: 1px solid #cccccc;
+}
+section .container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+section .menu{
+    width: 218px;
+    height: 968px;
+    padding-top: 10px;
+    background-color: #fff;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+}
+section .menu .menu-itens .inicio{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 50px;
+}
+section .main{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+section .main p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 50px;
+}
+section .main h4{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 50px;
+    margin-top: -45px;
+}
+.item .avatar{
+    margin-top: 10px;
+}
+.item p{
+    margin-top: 10px;
+}
